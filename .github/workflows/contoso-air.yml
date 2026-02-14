@@ -38,11 +38,11 @@ on:
   workflow_dispatch:
 
 env:
-  ACR_RESOURCE_GROUP: siva-myresourcegroup14253
-  AZURE_CONTAINER_REGISTRY: myregistryew4x
+  ACR_RESOURCE_GROUP: siva-aks-rg-02
+  AZURE_CONTAINER_REGISTRY: sivaaks02registry
   CONTAINER_NAME: contoso-air
-  CLUSTER_NAME: myakscluster
-  CLUSTER_RESOURCE_GROUP: siva-myresourcegroup14253
+  CLUSTER_NAME: siva-aks-02
+  CLUSTER_RESOURCE_GROUP: siva-aks-rg-02
   CLUSTER_RESOURCE_TYPE: Microsoft.ContainerService/managedClusters
   DEPLOYMENT_MANIFEST_PATH: ./manifests
   DOCKER_FILE: ./src/web/Dockerfile
